@@ -19,11 +19,9 @@ void PrintSequence(int n, int i = 1)
   }
   else if (n < 0)
   {
-    Console.Write(n + " ");
-    PrintSequence(n + 1);
+    Console.Write("not a natural number ");
+    return;
   }
-
-
 }
 
 int num = InputInt("Введите число");
